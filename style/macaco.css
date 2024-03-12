@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&display=swap');
+
+:root{
+    --cor1: #262523;
+    --cor2: #8C5B30;
+    --cor3: #591902;
+    --cor4: #260801;
+    --cor5: #400101;
+
+    --font-padrão: "Lato", sans-serif;
+    --font-destaque: "Madimi One", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 20px;
+}
+
+nav a{
+    color: var(--cor4);
+    font: normal bold 1em var(--font-padrão);
+    padding: 15px;
+    margin: 10px;
+}
+
+nav a:hover{
+    transition-duration: 0.2s;
+    color: white;
+    background-color: var(--cor3);
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+nav i{
+    margin-right: 8px;
+}
+
+img{
+    width: 100%;
+    height: 91.2vh;
+}

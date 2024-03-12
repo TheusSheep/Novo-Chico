@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&display=swap');
+
+:root{
+    --cor1: #262523;
+    --cor2: #8C5B30;
+    --cor3: #591902;
+    --cor4: #260801;
+    --cor5: #400101;
+
+    --font-padrão: "Lato", sans-serif;
+    --font-destaque: "Madimi One", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background: var(--cor1) url(../image/wallpaper_coin.avif) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header{
+    background: var(--cor1) url(../image/wallpape_moedas.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    padding: 50px;
+}
+
+header h1{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    font: normal normal 4rem var(--font-destaque);
+    text-align: center;
+    padding: 35px;
+}
+
+header h2{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    font: normal normal 3rem var(--font-destaque);
+    text-align: center;
+    padding: 35px;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 20px;
+}
+
+nav a{
+    color: var(--cor4);
+    font: normal bold 1em var(--font-padrão);
+    padding: 15px;
+    margin: 10px;
+}
+
+nav a:hover{
+    transition-duration: 0.2s;
+    color: white;
+    background-color: var(--cor3);
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+nav i{
+    margin-right: 8px;
+}
+
+main{
+    background-color: black;
+    background-attachment: fixed;
+    box-shadow: 0px 20px 17px 13px rgba(0, 0, 0, 0.534);
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1{
+    color: white;
+    background-color: var(--cor4);
+    border-radius: 15px;
+    font: normal normal 4rem var(--font-destaque);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    text-align: center;
+    padding: 25px;
+    margin: 0px 25px 50px 25px;
+
+}
+
+main h2{
+    color: white;
+    font: normal bolder 2.5rem var(--font-padrão);
+    text-align: center;
+    padding: 35px 25px;
+}
+
+main h3{
+    font: normal bolder 1.5rem var(--font-padrão);
+    text-align: start;
+    padding: 25px;
+}
+
+main p{
+    font: normal normal 1rem var(--font-padrão);
+    text-align: justify;
+    padding: 25px;
+}
+
+.image{
+    display: block;
+    border: 15px solid var(--cor4);
+    border-radius: 10px;
+    max-width: 735px;
+    height: 365px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    display: block;
+    background-color: white;
+    margin: auto;
+    max-width: 750px;
+}
+
+section h2{
+    background-color: var(--cor3);
+}
+
+section p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: var(--cor2);
+    padding: 15px;
+}
+
+footer p{
+    color: var(--cor1);
+    font: normal normal 2rem var(--font-padrão);
+    text-align: center;
+    padding: 35px;
+}
+
+footer i{
+    padding: 0px 8px;
+}
+
+footer a{
+    color: var(--cor1);
+    padding: 0px 8px;
+}
+
+footer a:hover{
+    color: #400101;
+    text-decoration: underline;
+}
